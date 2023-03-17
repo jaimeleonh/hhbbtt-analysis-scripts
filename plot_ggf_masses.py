@@ -27,6 +27,7 @@ legend_y2 = 0.88
 legend_y1 = legend_y2 - n_rows * row_width
 
 legend = ROOT.TLegend(legend_x1, legend_y1, legend_x2, legend_y2)
+
 histos = []
 
 max_val = -1
